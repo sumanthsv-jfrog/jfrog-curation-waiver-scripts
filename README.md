@@ -1,6 +1,6 @@
 # JFrog Curation Toolkit
 
-End-to-end toolkit for the **JFrog Curation process** — list and decide on waiver requests, manage catalog labels, and revoke waivers.
+End-to-end toolkit for the **JFrog Curation process** — list  waiver requests, manage catalog labels.
 
 ## Prerequisites
 
