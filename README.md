@@ -78,7 +78,6 @@ These files are created at runtime and are safe to delete or add to `.gitignore`
 | File | Created by |
 |------|-------------|
 | `packages.csv` | Input for label scripts |
-| `waiver-decisions.csv` | Input for `decide-waiver-requests.sh` |
 | `mutation.graphql` | `add-label-packages.sh` |
 | `remove-mutation.graphql` | `remove-label-packages.sh` |
 | `ca.json`, `ca2.json` | `add-label-packages.sh` (audit mode) |
@@ -88,7 +87,6 @@ These files are created at runtime and are safe to delete or add to `.gitignore`
 | Script | API |
 |--------|-----|
 | `list-waivers.sh` | `GET /xray/api/v1/curation/waiver_requests` |
-| `decide-waiver-requests.sh` | `POST /xray/api/v1/curation/waiver_requests/{id}/decision` |
 | Label scripts | `POST /catalog/api/v1/custom/graphql` |
 
 ## Security notes
