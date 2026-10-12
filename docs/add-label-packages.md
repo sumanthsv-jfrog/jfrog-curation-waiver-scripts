@@ -50,6 +50,9 @@ braces,2.3.2,npm
 `--dependency` only affects the curation-audit fetch — it has no effect when combined with `--from-file`, since in that case `packages.csv` is used as-is.
 
 ```bash
+# Preview blocked packages details
+./add-label-packages.sh my-label  --dry-run
+
 # Preview which transitively-blocked packages would be labeled, without assigning anything
 ./add-label-packages.sh my-label --dependency --dry-run
 cat packages.csv
@@ -124,6 +127,3 @@ jf npm-config --repo-resolve=rea-npm-virtual --repo-deploy=rea-npm-virtual
 - [`list-label-packages.sh`](list-label-packages.md) — verify assignments and check expiry
 - [`remove-label-packages.sh`](remove-label-packages.md) — remove versions from the label
 
-## Flow
-
-- [Add packages to label flow](add-label-packages-flow.md)
