@@ -82,6 +82,10 @@ A table and a JSON summary are also printed:
   "bypass_and_allow_percentage": 58.33
 }
 ```
+<img width="1396" height="327" alt="image" src="https://github.com/user-attachments/assets/d8cb3dac-b571-449f-b1e3-09d46a0f205d" />
+
+```
+```
 
 ## Troubleshooting
 
